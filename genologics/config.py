@@ -1,8 +1,12 @@
 import os
 import sys
 import warnings
+import six
 
-import ConfigParser
+if six.PY2:
+    import ConfigParser
+else:
+    import configparser
 
 '''
 Usage:
