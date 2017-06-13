@@ -60,5 +60,3 @@ def load_config(specified_config = None):
 
     return BASEURI, USERNAME, PASSWORD, VERSION, MAIN_LOG   
     
-
-BASEURI, USERNAME, PASSWORD, VERSION, MAIN_LOG = load_config(specified_config = spec_config)
